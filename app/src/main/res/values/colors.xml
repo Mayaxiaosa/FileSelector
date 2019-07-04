@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="group_title">#F5F5F5</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 黑色 -->
+    <color name="black">#000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="ok">#b6e9ca</color>
+    <color name="ok_select">#08c32c</color>
+    <!-- 灰色 -->
+    <color name="grey">#dbdbdb</color>
+    <color name="trans_grey1">#b5b5b5</color>
+    <!--浅灰-->
+    <color name="search">#F1F2F0</color>
+
+    <color name="blue_white">#00a8f0</color>
+    <color name="file_bottom">#F9F9F9</color>
+    <color name="blue_bac">#1c8fd0</color>
+    <color name="goodme">#666666</color>
+    <color name="light_grey">#f6f4f5</color>
+    <color name="text_999">#999</color>
+
+
+</resources>

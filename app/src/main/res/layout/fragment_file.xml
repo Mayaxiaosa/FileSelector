@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp">
+
+            <com.mayaxiaosa.file_selector.utils.IconCenterEditText
+                android:visibility="gone"
+                android:id="@+id/edt_search"
+                style="@style/StyleEditText"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/corner_f5f5f5_4dp"
+                android:textColor="#666666"
+                android:textSize="12dp" />
+
+            <ImageView
+               android:id="@+id/search_delete_iv"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:padding="13dp"
+                android:visibility="gone"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/delete" />
+        </FrameLayout>
+
+        <include layout="@layout/view_line_row" />
+
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/bottom_ll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="#F9F9F9">
+
+        <TextView
+            android:id="@+id/tv_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:textSize="11dp" />
+
+        <ImageView
+            android:id="@+id/up_img"
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pic_file_up" />
+        <ImageView
+            android:id="@+id/delete_img"
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pic_file_delete" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
